@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  ppt-chatbot:
+    build: .
+    ports:
+      - "8501:8501"
+    env_file:
+      - .env
+    volumes:
+      - ./:/app
+    environment:
+      - STREAMLIT_SERVER_MAX_UPLOAD_SIZE=500

@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "dental-rag"
+version = "0.1.0"
+description = ""
+authors = ["tharathip.kul <kuang.acad@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain-community = "^0.3.15"
+langchain-openai = "^0.3.2"
+streamlit = "^1.41.1"
+markitdown = "^0.0.1a3"
+loguru = "^0.7.3"
+tqdm = "^4.67.1"
+faiss-cpu = "^1.9.0.post1"
+pydantic-settings = "^2.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
