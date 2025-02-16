@@ -59,13 +59,13 @@ for message in st.session_state.messages:
 
 if prompt := st.chat_input("How can I help?"):
     st.session_state.thread_id = thread_id
-    st.session_state.messages.append({"role": "human", "content": prompt})
+    st.session_state.messages.append({"role": "user", "content": prompt})
     # invoke the graph
     config = {"configurable": {"thread_id": thread_id}}
     response = graph.invoke({"messages": [("human", prompt)]}, config)
 
     # update the session state
-    st.session_state.messages.append({"role": "human", "content": prompt})
+    st.session_state.messages.append({"role": "user", "content": prompt})
     st.session_state.messages.append({"role": "assistant", "content": response['messages'][-1].content})
 
     # write the response
