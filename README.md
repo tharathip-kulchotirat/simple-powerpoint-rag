@@ -174,3 +174,19 @@ Licensed under the [Apache License 2.0](./LICENSE).
 **Tharathip Kulchotirat** — Dentist · Lead AI Engineer · Founder of [Cuspal Co., Ltd.](https://www.linkedin.com/in/tharathip-kulchotirat-3b83791a7/)
 
 If you find this useful in your own teaching or learning workflow, a ⭐ on the repo is always appreciated.
+
+---
+
+## Citation
+
+If you use This Dental SOAP generator in your research or any future development, please cite:
+
+```bibtex
+@software{portiere2024,
+  title     = {Kulchotirat: Simple Powerpoint RAG},
+  author    = {Kulchotirat T.},
+  year      = {2026},
+  url       = {https://github.com/tharathip-kulchotirat/simple-powerpoint-rag},
+  license   = {Apache-2.0},
+}
+```
