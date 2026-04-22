@@ -176,6 +176,21 @@ Licensed under the [Apache License 2.0](./LICENSE).
 If you find this useful in your own teaching or learning workflow, a ⭐ on the repo is always appreciated.
 
 ---
+## Support the project
+
+This is a free, open-source project released under Apache-2.0. If it has been useful to you — or you'd simply like to send some encouragement — you can buy me a coffee:
+
+**[buymeacoffee.com/tharathipk](https://buymeacoffee.com/tharathipk)**
+
+<p align="center">
+  <a href="https://buymeacoffee.com/tharathipk">
+    <img src="bmc_qr.png" alt="Buy Me a Coffee QR code — buymeacoffee.com/tharathipk" width="200" />
+  </a>
+</p>
+
+Donations are entirely optional and have no bearing on the license or support — the code remains free to use, modify, and redistribute under Apache-2.0. Thank you!
+
+---
 
 ## Citation
 
