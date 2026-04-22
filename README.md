@@ -182,7 +182,7 @@ If you find this useful in your own teaching or learning workflow, a ⭐ on the 
 If you use This Dental SOAP generator in your research or any future development, please cite:
 
 ```bibtex
-@software{kulchotirat2026,
+@software{kul_simple_powerpoint_rag_2026,
   title     = {Kulchotirat: Simple Powerpoint RAG},
   author    = {Kulchotirat T.},
   year      = {2026},
