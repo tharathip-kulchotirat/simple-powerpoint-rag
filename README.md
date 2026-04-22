@@ -59,10 +59,10 @@ Prompt templates live in [`resources/prompts/`](./resources/prompts/) and can be
 | Layer          | Tool                                                         |
 | -------------- | ------------------------------------------------------------ |
 | UI             | Streamlit                                                    |
-| Orchestration  | <!-- TODO: LangChain / LlamaIndex / custom -->               |
-| LLM            | <!-- TODO: OpenAI / Anthropic / Ollama — set via .env -->    |
-| Embeddings     | <!-- TODO: e.g. text-embedding-3-small / BGE / etc. -->      |
-| Vector store   | <!-- TODO: e.g. FAISS / Chroma / Qdrant -->                  |
+| Orchestration  | LangChain             |
+| LLM            | OpenAI               |
+| Embeddings     | e.g. text-embedding-3-small|
+| Vector store   | FAISS |
 | Slide parsing  | `python-pptx`                                                |
 | Packaging      | Poetry                                                       |
 | Deployment     | Docker + docker-compose                                      |
